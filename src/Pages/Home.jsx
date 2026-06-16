@@ -6,7 +6,6 @@ function Home() {
   return (
     <>
       <Hero />
-
       <section className="about_section">
          <div className="about_content">
           <div className="about_text">
@@ -32,10 +31,26 @@ function Home() {
         <h2>UP GOVT. | 80G & 12A Registered</h2>
         <p>We are one of the Biggest Student led NGO of India with its operations extended in the city of Kanpur, Ghaziabad and various other cities.</p>
       </div>
-
+      <div className="quote">
+        <h1>"If we all do <span>something</span> , then together there is no problem that we cannot solve!"</h1>
+        <h2>PRASHANT SHUKLA</h2>
+        <p>Founder & President, NayePankh Foundation</p>
+        <div className="quote_cards">
+          <div className="quote_card">
+          <h3>Every Child Deserves a Chance</h3>
+          <p>We work to ensure quality education reaches every child,
+        regardless of their background.
+      </p></div>
+        <div className="quote_card">
+          <h3> Make Your Donation Count</h3>
+          <p> Donations to NayePankh Foundation are eligible for
+        tax benefits under Section 80G.</p>
+      </div>
+      </div>
+      </div>
       <section className="programs_section">
         <h2>Our Programs</h2>
-
+  
         <div className="cards">
 
           <div className="card">
@@ -55,6 +70,7 @@ function Home() {
 
         </div>
       </section>
+      
     </>
   );
 }

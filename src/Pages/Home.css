@@ -69,3 +69,72 @@
     font-size:2rem;
     line-height:1.8;
 }
+.quote{
+    text-align:center;
+    padding:100px 10%;
+    background:rgb(23, 13, 13);
+      color:#fff;
+      background-size: cover;
+      padding:100px 10%;
+      align-items: center;
+
+}
+.quote h1{
+    font-family:'Inter', sans-serif;
+    font-weight:800;
+    line-height:1.3;
+    font-size:3.5rem;
+    max-width: 1000px;
+    margin: 0 auto 30px;
+    margin-bottom:20px;
+    text-align:center;
+}
+.quote h1 span{
+    color:#e63946;
+}
+.quote h2{
+    font-family:'Inter', sans-serif;
+    font-weight:600;
+    font-size:1.3rem;
+    margin-bottom:10px;
+}
+
+.quote p{
+    font-family:'Inter', sans-serif;
+    font-weight:400;
+    opacity:0.8;
+    text-align:center;
+    font-size:1.25rem;
+    line-height:1.8;
+}
+.quote_cards{
+    display:flex;
+    justify-content:center;
+    gap: 30px;
+    flex-wrap:wrap;
+}
+.quote_card{
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    backdrop-filter: blur(7px);
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    transition: 0.3s ease;
+    margin-top: 30px;
+}
+
+.quote_card:hover{
+    transform: translateY(-10px);
+}
+
+.quote_card h3{
+    margin-bottom: 15px;
+    color: #ff4d4d;
+}
+
+.quote_card p{
+    line-height: 1.7;
+}
