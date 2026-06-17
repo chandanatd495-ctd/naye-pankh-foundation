@@ -3,12 +3,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Programs from "./pages/Programs";
-import Volunteer from "./pages/Volunteer";
-import Donate from "./pages/Donate";
-import Contact from "./pages/Contact";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Programs from "./Pages/Programs";
+import Volunteer from "./Pages/Volunteer";
+import Donate from "./Pages/Donate";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
