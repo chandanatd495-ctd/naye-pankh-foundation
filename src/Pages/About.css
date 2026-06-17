@@ -1,0 +1,115 @@
+/* HERO SECTION */
+
+.page-hero{
+    height:60vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.55),
+    rgba(0,0,0,0.55)
+    ),
+    url("../assets/welcome.png");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.page-hero h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.page-hero p{
+    font-size:1.3rem;
+}
+
+
+/* ABOUT SECTION */
+
+.about-detail{
+    padding:100px 10%;
+    background:#f8f9fa;
+}
+
+.about-container{
+    display:flex;
+    align-items:center;
+    gap:60px;
+}
+
+.about-image{
+    flex:1;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:20px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.15);
+
+    transition:0.4s ease;
+}
+
+.about-image img:hover{
+    transform:scale(1.03);
+}
+
+.about-text{
+    flex:1;
+}
+
+.about-text h2{
+    font-size:3rem;
+    color:#e63946;
+    margin-bottom:25px;
+}
+
+.about-text p{
+    font-size:1.1rem;
+    line-height:1.9;
+    color:#444;
+    margin-bottom:20px;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+    .about-container{
+        flex-direction:column;
+    }
+
+    .page-hero h1{
+        font-size:2.8rem;
+    }
+
+    .about-text h2{
+        font-size:2.3rem;
+    }
+}
+.about-quote{
+    background:rgb(23,13,13);
+    color:white;
+    text-align:center;
+    padding:100px 10%;
+}
+
+.about-quote h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.about-quote p{
+    font-size:1.2rem;
+    opacity:0.9;
+}

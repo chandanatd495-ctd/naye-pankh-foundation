@@ -1,18 +1,81 @@
+import contactImg from "../assets/ngo1.png";
+import "./Contact.css";
+
 function Contact() {
   return (
-    <div className="page">
-      <h1>Contact Us</h1>
+    <>
+      <section className="page-hero">
+        <h1>Get In Touch</h1>
 
-      <form className="form">
-        <input type="text" placeholder="Name" />
+        <p>
+          We'd love to hear from you.
+        </p>
+      </section>
 
-        <input type="email" placeholder="Email" />
+      <section className="contact-section">
 
-        <textarea placeholder="Message"></textarea>
+        <div className="contact-info">
 
-        <button>Send</button>
-      </form>
-    </div>
+          <img
+            src={contactImg}
+            alt="Contact"
+          />
+
+          <h2>Contact Information</h2>
+
+          <p>📧 contact@nayepankh.com</p>
+
+          <p>📞 +91 8318500748</p>
+
+          <p>📍 Kanpur, India</p>
+
+          <p>
+            Together, we can create a brighter future
+            for every child.
+          </p>
+
+        </div>
+
+        <div className="contact-form">
+
+          <h2>Send Us A Message</h2>
+
+          <input
+            type="text"
+            placeholder="Your Name"
+          />
+
+          <input
+            type="email"
+            placeholder="Your Email"
+          />
+
+          <input
+            type="text"
+            placeholder="Subject"
+          />
+
+          <textarea
+            placeholder="Your Message"
+          ></textarea>
+
+          <button className="btn">
+            Send Message
+          </button>
+
+        </div>
+
+      </section>
+
+      <section className="contact-quote">
+
+        <h2>
+          "Every conversation is the beginning of change."
+        </h2>
+
+      </section>
+
+    </>
   );
 }
 

@@ -1,0 +1,48 @@
+.programs_section{
+    padding:100px 10%;
+    background:#f8f9fa;
+}
+
+.programs_section h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:60px;
+}
+
+.programs_grid{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+}
+
+.program_card{
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,0.08);
+
+    transition:0.3s ease;
+}
+
+.program_card:hover{
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,0.15);
+}
+
+.program_card h2{
+    color:#e63946;
+    margin-bottom:15px;
+}
+
+.program_card p{
+    line-height:1.8;
+    color:#555;
+}

@@ -2,6 +2,9 @@ import Hero from "../components/Hero";
 import "./Home.css";
 import aboutImage from "../assets/about.png";
 import { Link } from "react-router-dom";
+import ngo1 from "../assets/ngo1.png";
+import ngo2 from "../assets/ngo2.png";
+import ngo3 from "../assets/ngo3.png";
 function Home() {
   return (
     <>
@@ -26,11 +29,31 @@ function Home() {
           </div>
         </div>
       </section>
+
       <div className="welcome">
         <h1>Welcome to NayePankh Foundation</h1>
         <h2>UP GOVT. | 80G & 12A Registered</h2>
         <p>We are one of the Biggest Student led NGO of India with its operations extended in the city of Kanpur, Ghaziabad and various other cities.</p>
       </div>
+       <section className="gallery_section">
+
+  <div className="gallery">
+
+    <div className="gallery_card">
+      <img src={ngo1} alt="Education Program" />
+    </div>
+
+    <div className="gallery_card">
+      <img src={ngo2} alt="Healthcare Camp" />
+    </div>
+
+    <div className="gallery_card">
+      <img src={ngo3} alt="Community Support" />
+    </div>
+
+  </div>
+
+</section>
       <div className="quote">
         <h1>"If we all do <span>something</span> , then together there is no problem that we cannot solve!"</h1>
         <h2>PRASHANT SHUKLA</h2>
@@ -48,28 +71,6 @@ function Home() {
       </div>
       </div>
       </div>
-      <section className="programs_section">
-        <h2>Our Programs</h2>
-  
-        <div className="cards">
-
-          <div className="card">
-            <h3>Education</h3>
-            <p>Supporting children's learning.</p>
-          </div>
-
-          <div className="card">
-            <h3>Healthcare</h3>
-            <p>Improving access to health services.</p>
-          </div>
-
-          <div className="card">
-            <h3>Women Empowerment</h3>
-            <p>Creating opportunities for growth.</p>
-          </div>
-
-        </div>
-      </section>
       
     </>
   );

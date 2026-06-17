@@ -1,0 +1,181 @@
+/* HERO */
+
+.page-hero{
+    height:60vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,.55),
+    rgba(0,0,0,.55)
+    ),
+    url("../assets/welcome.png");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.page-hero h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.page-hero p{
+    font-size:1.3rem;
+}
+
+/* MAIN CONTACT SECTION */
+
+.contact-section{
+    padding:100px 10%;
+
+    display:flex;
+    gap:60px;
+    align-items:center;
+
+    background:#f8f9fa;
+}
+
+/* LEFT SIDE */
+
+.contact-info{
+    flex:1;
+}
+
+.contact-info img{
+    width:100%;
+    max-width:450px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.15);
+
+    margin-bottom:30px;
+}
+
+.contact-info h2{
+    color:#e63946;
+    font-size:2.5rem;
+    margin-bottom:25px;
+}
+
+.contact-info p{
+    font-size:1.1rem;
+    line-height:1.8;
+    color:#444;
+    margin-bottom:15px;
+}
+
+/* RIGHT SIDE */
+
+.contact-form{
+    flex:1;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+}
+
+.contact-form h2{
+    color:#e63946;
+    margin-bottom:25px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+
+    padding:16px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    font-size:1rem;
+}
+
+.contact-form textarea{
+    height:150px;
+    resize:none;
+}
+
+/* BUTTON */
+
+.btn{
+    background:#e63946;
+
+    color:white;
+
+    border:none;
+
+    padding:16px 35px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+}
+
+.btn:hover{
+    background:#c92f3b;
+}
+
+/* QUOTE SECTION */
+
+.contact-quote{
+    background:rgb(23,13,13);
+
+    color:white;
+
+    text-align:center;
+
+    padding:80px 10%;
+}
+
+.contact-quote h2{
+    font-size:2.5rem;
+
+    max-width:900px;
+
+    margin:auto;
+
+    line-height:1.4;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+    .contact-section{
+        flex-direction:column;
+    }
+
+    .page-hero h1{
+        font-size:2.8rem;
+    }
+
+    .contact-info h2,
+    .contact-form h2{
+        font-size:2rem;
+    }
+
+    .contact-quote h2{
+        font-size:2rem;
+    }
+}
