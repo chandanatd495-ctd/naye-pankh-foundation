@@ -53,3 +53,25 @@
     height:70px;
     width: auto;
 }
+@media (max-width: 768px) {
+
+    .navbar{
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .brand h2{
+        font-size: 1.3rem;
+    }
+
+    .navbar ul{
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo{
+        height: 55px;
+    }
+}
